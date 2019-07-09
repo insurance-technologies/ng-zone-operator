@@ -1,6 +1,6 @@
 {
   "name": "@instechnologies/ng-zone-operator",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "force Observable subscription to run in the angular zone",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/insurance-technologies/ng-zone-operator#readme",
   "dependencies": {
-    "@angular/core": "^8.1.0",
-    "rxjs": "^6.5.2"
+    "@angular/core": "~8.0.0",
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.1",

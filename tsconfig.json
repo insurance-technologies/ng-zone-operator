@@ -7,8 +7,12 @@
         "allowJs": false,
         "sourceMap": true,
         "declaration": true,        
+        "sourceRoot": "s"
     },    
     "exclude": [
         "node_modules"
     ],    
+    "include": [
+        "src/**/*"
+    ]
 }

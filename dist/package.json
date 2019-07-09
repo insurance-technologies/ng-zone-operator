@@ -1,0 +1,35 @@
+{
+  "name": "@instechnologies/ng-zone-operator",
+  "version": "0.1.1",
+  "description": "force Observable subscription to run in the angular zone",
+  "main": "index.js",
+  "scripts": {
+    "build": "concurrently \"tsc\" \"cpx package.json dist\"",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insurance-technologies/ng-zone-operator.git"
+  },
+  "keywords": [
+    "angular",
+    "rxjs",
+    "angular",
+    "zone"
+  ],
+  "author": "Insurance Technologies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insurance-technologies/ng-zone-operator/issues"
+  },
+  "homepage": "https://github.com/insurance-technologies/ng-zone-operator#readme",
+  "dependencies": {
+    "@angular/core": "^8.1.0",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "cpx": "^1.5.0",
+    "typescript": "^3.5.2"
+  }
+}

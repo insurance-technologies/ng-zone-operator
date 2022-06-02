@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/insurance-technologies/ng-zone-operator#readme",
   "dependencies": {
-    "@angular/core": "~8.0.0",
+    "@angular/core": "~11.0.5",
     "rxjs": "^6.4.0"
   },
   "devDependencies": {
